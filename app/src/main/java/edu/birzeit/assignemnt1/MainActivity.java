@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
     public void loginBtn_click(View view){
         nameEditText=findViewById(R.id.nameEditText);
         ageEditText=findViewById(R.id.ageEditText);

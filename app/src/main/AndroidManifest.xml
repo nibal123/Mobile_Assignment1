@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignemnt1">
         <activity
+            android:name=".StopWatchActivity"
+            android:exported="true" />
+        <activity
             android:name=".UserExerActivity"
             android:exported="true" />
         <activity

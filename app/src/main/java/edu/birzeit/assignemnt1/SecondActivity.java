@@ -42,4 +42,9 @@ public class SecondActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void btnStopWatch_click(View view){
+        Intent intent = new Intent(this,StopWatchActivity.class);
+        startActivity(intent);
+    }
+
 }

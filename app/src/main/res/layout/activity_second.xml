@@ -8,6 +8,12 @@
     style="@style/first"
     tools:context=".SecondActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/image" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -21,5 +27,13 @@
         android:layout_height="wrap_content"
         android:onClick="showUserEx_click"
         android:text="Show my Exercises" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="190dp"
+        android:text="Stop watch"
+        android:onClick="btnStopWatch_click"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
